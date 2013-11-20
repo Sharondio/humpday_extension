@@ -1,15 +1,12 @@
 {
   "manifest_version": 2,
-
-  "name": "Crazy for Swayze!",
-  "description": "This extension demonstrates a browser action for people who are crazy for Swayze.",
-  "version": "0.0.1",
-
-  "permissions": [
-    "https://secure.flickr.com/"
-  ],
+  "name": "Humpday! Yeah",
+  "description": "Because I can.",
+  "version": "0.0.2",
+  "permissions": [],
   "browser_action": {
-    "default_icon": "camel.png",
-    "default_popup": "popup.html"
-  }
+    "default_icon": "img/camel.png",
+    "default_popup": "index.html"
+  },
+  "content_security_policy": "script-src 'self' 'unsafe-eval'; object-src 'self' "
 }
