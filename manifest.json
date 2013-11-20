@@ -1,0 +1,15 @@
+{
+  "manifest_version": 2,
+
+  "name": "Crazy for Swayze!",
+  "description": "This extension demonstrates a browser action for people who are crazy for Swayze.",
+  "version": "0.0.1",
+
+  "permissions": [
+    "https://secure.flickr.com/"
+  ],
+  "browser_action": {
+    "default_icon": "camel.png",
+    "default_popup": "popup.html"
+  }
+}
